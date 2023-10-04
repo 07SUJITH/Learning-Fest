@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        form{
+            padding: 50px;
+            width: min-content;
+            margin: 0px auto;
+        }
+        input{
+            display: block;
+        }
+        #check{
+            display: inline;
+        }
+    </style>
+</head>
+<body>
+    <form action="#" method="post">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" placeholder="first Name" required>
+        <label for="lastName">Last Name:</label>
+        <input type="text" placeholder="last Name" id="lastName" >
+        <input type="checkbox" name="check" id="check" required>
+        <label for="check">Check me out</label>
+        <input type="submit" value="Submit">
+    </form>
+    
+</body>
+</html>

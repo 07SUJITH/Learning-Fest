@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        video,
+        img,
+        iframe {
+            width: 400px;
+            height: 350px;
+            object-fit: cover;
+            box-sizing: border-box;
+            border: 2px solid black;
+            border-radius: 5px;
+        }
+
+        .center {
+            display: flex;
+            justify-content: center ;
+            align-items: center;
+            flex-wrap: wrap;
+            margin: 5px;
+            gap: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="center">
+        <div>
+            <img src="pexels-s-von-hoerst-2920064.jpg" alt="a car">
+        </div>
+        <div>
+            <video src="production_id_4747773 (1080p).mp4" alt="strawberry" controls></video>
+        </div>
+        <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/g0VWqaYROwQ?si=zkwvvudawgJZbWNq"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
