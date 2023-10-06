@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="twitter.png" type="image/x-icon">
+    <style>
+        video,
+        img,
+        iframe {
+            width: 400px;
+            height: 350px;
+            object-fit: cover;
+            box-sizing: border-box;
+            border: 2px solid black;
+            border-radius: 5px;
+        }
+
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin: 5px;
+            gap: 5px;
+        }
+
+        form {
+            padding: 50px;
+            width: min-content;
+            margin: 0px auto;
+        }
+
+        #check {
+            display: inline;
+        }
+         .option {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+    }
+
+    </style>
+</head>
+
+<body>
+    <!-- task 1 -->
+    <h1>Build.myweb</h1>
+    <h2>Build.myweb</h2>
+    <h3>Build.myweb</h3>
+    <h4>Build.myweb</h4>
+    <h5>Build.myweb</h5>
+    <h6>Build.myweb</h6>
+    <!-- task 2 -->
+
+    <p>The ol element defines an ordered list:</p>
+    <ol>
+        <li class="drinks">Coffee</li>
+        <li class="drinks">Tea</li>
+        <li class="drinks">Milk</li>
+    </ol>
+    <p>The ul element defines an unordered list:</p>
+    <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+    <label for="design1">Do you like designing</label>
+    <input type="text" name="inputText" id="design1">
+    <br>
+    <br>
+    <label for="design2">Do you like designing</label>
+    <input type="checkbox" name="inputText" id="design2">
+    <br>
+    <br>
+    <label for="description">write a description:</label>
+    <textarea name="description" id="description" cols="30" rows="6"></textarea>
+    <br>
+    <br>
+    <button type="submit">Submit</button>
+    <!-- task 4 -->
+    <h1>Todo list</h1>
+    <p>click on one of the text labels to toggle the related radio button:</p>
+    <div class="selection">
+        <form action="#" method="post">
+            <div class="option">
+                <input type="radio" name="item" id="apple" value="apple">
+                <label for="apple">apple</label>
+            </div>
+            <div class="option">
+                <input type="radio" name="item" id="oneplus" value="oneplus">
+                <label for="oneplus">oneplus</label>
+            </div>
+            <div class="option">
+                <input type="radio" id="google" name="item" value="google">
+                <label for="google">google</label>
+            </div>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <!-- task 5-->
+    <form action="#" method="post">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" placeholder="first Name" required>
+        <label for="lastName">Last Name:</label>
+        <input type="text" placeholder="last Name" id="lastName">
+        <input type="checkbox" name="check" id="check" required>
+        <label for="check">Check me out</label>
+        <input type="submit" value="Submit">
+    </form>
+    <!-- task 6 -->
+    <div class="center">
+        <div>
+            <img src="pexels-s-von-hoerst-2920064.jpg" alt="a car">
+        </div>
+        <div>
+            <video src="production_id_4747773 (1080p).mp4" alt="strawberry" controls></video>
+        </div>
+        <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/g0VWqaYROwQ?si=zkwvvudawgJZbWNq"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
