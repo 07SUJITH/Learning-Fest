@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@600;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    font-family: 'Edu SA Beginner', cursive;
+}
+main> h1{
+    text-align: center;
+    color: antiquewhite;
+    font-style: italic;
+    padding: 30px;
+}
+main{
+    padding: 20px;
+    min-height: 100vh;
+    background-color: #48877d;
+}

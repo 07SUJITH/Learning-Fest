@@ -1,0 +1,27 @@
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    box-sizing: border-box;
+}
+
+main{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(170, 94, 8);
+}
+.child{
+    width: 50%;
+    height: 50%;
+    background-color: rgb(85, 163, 78);
+}

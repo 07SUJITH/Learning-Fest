@@ -1,0 +1,50 @@
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    font-family: 'Edu SA Beginner', cursive;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+body {
+    background-color: #272626;
+    padding: 10px;
+}
+.todolist{
+    background-color: #3d3b3b;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 100px auto;
+    /* width: 600px; */
+    max-width: 700px;
+    padding: 30px 10px;
+    border-radius: 7px;
+}
+.task{
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    min-height: 30px;
+    background-color: #d2d2d2;
+    border-radius: 7px;
+}
+.done{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: #a96a7b;
+    margin-left: 10px;
+}
+.desc{
+    margin-left: 20px;
+   
+}

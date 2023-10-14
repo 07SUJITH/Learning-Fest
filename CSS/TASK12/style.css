@@ -1,0 +1,30 @@
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.size{
+    width: 200px;
+    height: 200px;
+}
+.one{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.two{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.three{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.one1,.three2{
+    align-self: flex-end;
+}

@@ -1,0 +1,22 @@
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    box-sizing: border-box;
+    color: rgb(216, 242, 238);
+    font-size: 25px;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg?w=1380&t=st=1697266027~exp=1697266627~hmac=f48c95abf6aca6d58b5ff766147b8b797aa235f38f1bdae079344ea32225b303);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+
+}
+h1{
+    margin-bottom: 30px;
+}

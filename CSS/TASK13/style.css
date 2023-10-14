@@ -1,0 +1,25 @@
+.box{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+ 
+}
+.row1{
+    display: flex;
+    width: 420px;
+    gap: 3px;
+    margin-bottom: 3px;
+}
+.row2{
+    display: flex;
+    width: 420px;
+    gap: 3px;
+    justify-content: space-between;
+    margin-bottom: 3px;
+
+}
+main{
+    
+    width: min-content;
+    margin: 100px auto;
+}

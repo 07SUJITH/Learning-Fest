@@ -1,0 +1,11 @@
+.rainbow{
+    background: linear-gradient(90deg, #ff0000, #ff7700, #ffff00, #00ff00, #0000ff, #7f00ff, #ff00ff);
+    min-height: 50px ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    color: rgb(78, 80, 82);
+}
